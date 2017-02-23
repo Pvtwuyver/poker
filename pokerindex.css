@@ -1,0 +1,93 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('images/poker_chips.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:0px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.bar{
+    fill: grey;
+ }
+
+.bar:hover{
+    fill: steelblue;
+}
+
+.title {
+    font: 15px sans-serif;
+}
+
+.axis {
+    font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+hover.tooltip { 
+    position: absolute;     
+    text-align: left;     
+    width: 200px;         
+    height: 100px;         
+    padding: 2px;       
+    font: 12px arial, sans-serif;   
+    background: #CCFFCC;  
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+.right {
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    border: 3px solid red;
+    font: 12px sans-serif;  
+    padding: 10px;
+}
