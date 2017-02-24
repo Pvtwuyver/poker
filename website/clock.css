@@ -1,0 +1,209 @@
+body
+{
+  background: #2c5a39;
+}
+
+#poker_clock h1
+{
+  color: #000;
+  font-family: georgia;
+  font-size: 40px;
+  font-style: italic;
+  padding-top: 30px;
+  opacity: 0.35;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 1) 0px -1px 1px;
+}
+
+#poker_play_pause,
+#poker_next_round
+{
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 80px;
+  width: 100px;
+}
+
+#poker_play_pause span,
+#poker_next_round span
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#poker_play_pause a,
+#poker_next_round a
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  width: 80px;
+}
+
+#poker_play_pause
+{
+  margin-left: -350px;
+}
+
+#poker_play_pause a
+{
+  background: red;
+  border: 10px dotted #fff;
+  border-radius: 50px;
+}
+
+#poker_play_pause .play span
+{
+  border-color: transparent transparent transparent white;
+  border-style: solid;
+  border-width: 15px;
+  display: block;
+  height: 0px;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -15px;
+  position: relative;
+  top: 50%;
+  width: 0px;
+}
+
+#poker_play_pause .pause
+{
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#poker_play_pause .pause span:before
+{
+  content: "=";
+  font-size: 50px;
+  position: relative;
+  bottom: 2px;
+}
+
+#poker_next_round
+{
+  margin-left: 250px;
+}
+
+#poker_next_round a
+{
+  background: #333;
+  border: 10px dotted #fff;
+  border-radius: 50px;
+}
+
+h2
+{
+  color: #fff;
+  font-family: georgia;
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-top: 120px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 1) 0px 1px 2px;
+}
+
+.clock
+{
+  color: #f3fc3f;
+  font-family: georgia;
+  font-size: 300px;
+  margin-top: -80px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 1) 0px 2px 2px;
+}
+
+#poker_blinds
+{
+  text-align: center;
+}
+
+.blinds
+{
+  text-align: center;
+}
+
+.blinds span
+{
+  color: #f3fc3f;
+  font-family: georgia;
+  font-size: 120px;
+  text-shadow: rgba(0, 0, 0, 1) 0px 2px 2px;
+}
+
+#poker_blinds > span
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 30px;
+  margin-top: 10px;
+  text-shadow: rgba(0, 0, 0, 1) 0px 1px 2px;
+}
+
+.settings,
+.reset
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 30px;
+  height: 40px;
+  margin: 20px;
+  opacity: 0.35;
+  text-shadow: rgba(0, 0, 0, 1) 0px -1px 1px;
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.settings:hover,
+.reset:hover
+{
+  opacity: 1;
+}
+
+.settings
+{
+  float: left;
+}
+
+.reset
+{
+  float: right;
+}
+
+audio
+{
+  display: none;
+}
+
+/* clearfix */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
