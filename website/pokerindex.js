@@ -116,8 +116,8 @@ d3.json("pokerstand.json", function(error, data) {
                 .duration(200)
                 .style("opacity", .9);
             hover.html("<b>" + d.naam + "</b>" + "<br/>" + "Totale indexscore: " + "<b>" + d.indexscore + "</b>" + "<br/>")
-                .style("left", (d3.event.pageX - 1000) + "px")
-                .style("top", (d3.event.pageY - 500) + "px");
+                .style("left", (d3.event.pageX ) + "px")
+                .style("top", (d3.event.pageY ) + "px");
         })
         .on("mouseout", function(d) {
             hover.transition()
