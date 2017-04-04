@@ -88,11 +88,11 @@ hover.tooltip {
     border-radius: 8px;     
     pointer-events: none;     
 }
-#score {
+/*#score {
     position: absolute;
     right: 100px;
     padding: 10px;
-}
+}*/
 
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
