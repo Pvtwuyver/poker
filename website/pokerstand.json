@@ -1,1 +1,43 @@
-[{"persoonlijk": "40.00", "indexscore": "128.13", "naam": "Peter", "gewonnen": "4", "gespeeld": "10", "absoluut": "40.00"}, {"persoonlijk": "14.29", "indexscore": "83.88", "naam": "Marijn", "gewonnen": "1", "gespeeld": "7", "absoluut": "10.00"}, {"persoonlijk": "0.00", "indexscore": "82.88", "naam": "Rik", "gewonnen": "0", "gespeeld": "6", "absoluut": "0.00"}, {"persoonlijk": "10.00", "indexscore": "96.25", "naam": "Martijn", "gewonnen": "1", "gespeeld": "10", "absoluut": "10.00"}, {"persoonlijk": "12.50", "indexscore": "115.50", "naam": "Paul", "gewonnen": "1", "gespeeld": "8", "absoluut": "10.00"}, {"persoonlijk": "75.00", "indexscore": "138.38", "naam": "Jasper", "gewonnen": "3", "gespeeld": "4", "absoluut": "30.00"}]
+[{
+	"persoonlijk": "40.00",
+	"indexscore": "128.13",
+	"naam": "Peter",
+	"gewonnen": "4",
+	"gespeeld": "10",
+	"absoluut": "40.00"
+}, {
+	"persoonlijk": "14.29",
+	"indexscore": "83.88",
+	"naam": "Marijn",
+	"gewonnen": "1",
+	"gespeeld": "7",
+	"absoluut": "10.00"
+}, {
+	"persoonlijk": "0.00",
+	"indexscore": "82.88",
+	"naam": "Rik",
+	"gewonnen": "0",
+	"gespeeld": "6",
+	"absoluut": "0.00"
+}, {
+	"persoonlijk": "10.00",
+	"indexscore": "96.25",
+	"naam": "Martijn",
+	"gewonnen": "1",
+	"gespeeld": "10",
+	"absoluut": "10.00"
+}, {
+	"persoonlijk": "12.50",
+	"indexscore": "115.50",
+	"naam": "Paul",
+	"gewonnen": "1",
+	"gespeeld": "8",
+	"absoluut": "10.00"
+}, {
+	"persoonlijk": "75.00",
+	"indexscore": "138.38",
+	"naam": "Jasper",
+	"gewonnen": "3",
+	"gespeeld": "4",
+	"absoluut": "30.00"
+}]

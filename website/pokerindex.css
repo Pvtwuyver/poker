@@ -1,6 +1,6 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
@@ -54,19 +54,19 @@
 }
 
 .bar{
-    fill: grey;
+    fill: steelblue;
  }
 
 .bar:hover{
-    fill: steelblue;
+    fill: #41ab5d;
 }
 
 .title {
-    font: 15px sans-serif;
+    font: 20px sans-serif;
 }
 
 .axis {
-    font: 15px sans-serif;
+    font: 20px sans-serif;
 }
 
 .axis path,
@@ -82,17 +82,44 @@ hover.tooltip {
     width: 200px;         
     height: 100px;         
     padding: 2px;       
-    font: 12px arial, sans-serif;   
+    font: 15px arial, sans-serif;   
     background: #CCFFCC;  
     border: 0px;    
     border-radius: 8px;     
     pointer-events: none;     
 }
-.right {
+#score {
     position: absolute;
-    right: 50px;
-    width: 200px;
-    border: 3px solid red;
-    font: 12px sans-serif;  
+    right: 100px;
     padding: 10px;
+}
+
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 20px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
 }
