@@ -123,3 +123,13 @@ rect:hover {  fill:blue; }
     align:right;
     width:50px;
 }
+
+
+.arc text {
+  font: 18px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
