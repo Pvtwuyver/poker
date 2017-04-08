@@ -323,12 +323,12 @@ function dashboard(id, fData){
 }
 
 var freqData=[
-{State:'Peter',freq:{verloren:4, tweede:2, winnaar:4}}
-,{State:'Marijn',freq:{verloren:6, tweede:0, winnaar:1}}
-,{State:'Rik',freq:{verloren:5, tweede:1, winnaar:0}}
-,{State:'Martijn',freq:{verloren:7, tweede:2, winnaar:1}}
-,{State:'Paul',freq:{verloren:2, tweede:5, winnaar:1}}
-,{State:'Jasper',freq:{verloren:1, tweede:0, winnaar:3}}
+{State:'Peter',freq:{verloren:5, tweede:2, winnaar:4}}
+,{State:'Marijn',freq:{verloren:7, tweede:0, winnaar:1}}
+,{State:'Rik',freq:{verloren:6, tweede:1, winnaar:0}}
+,{State:'Martijn',freq:{verloren:8, tweede:2, winnaar:1}}
+,{State:'Paul',freq:{verloren:2, tweede:5, winnaar:2}}
+,{State:'Jasper',freq:{verloren:1, tweede:1, winnaar:3}}
 ];
 
 dashboard('#dashboard',freqData);
