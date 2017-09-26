@@ -39,7 +39,7 @@ var svg = d3.select("#score").append("svg")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // load the data
-d3.json("pokerstand.json", function(error, data) {
+d3.json("pokerstand26sep.json", function(error, data) {
     data.forEach(function(d) {
         
         // change strings into real numbers
@@ -323,12 +323,13 @@ function dashboard(id, fData){
 }
 
 var freqData=[
-{State:'Peter',freq:{verloren:5, tweede:2, winnaar:4}}
-,{State:'Marijn',freq:{verloren:7, tweede:0, winnaar:1}}
-,{State:'Rik',freq:{verloren:6, tweede:1, winnaar:0}}
-,{State:'Martijn',freq:{verloren:8, tweede:2, winnaar:1}}
+{State:'Peter',freq:{verloren:6, tweede:3, winnaar:4}}
+,{State:'Marijn',freq:{verloren:9, tweede:0, winnaar:1}}
+,{State:'Rik',freq:{verloren:7, tweede:1, winnaar:0}}
+,{State:'Martijn',freq:{verloren:8, tweede:2, winnaar:3}}
 ,{State:'Paul',freq:{verloren:2, tweede:5, winnaar:2}}
-,{State:'Jasper',freq:{verloren:1, tweede:1, winnaar:3}}
+,{State:'Jasper',freq:{verloren:3, tweede:1, winnaar:3}}
+,{State:'Sophie',freq:{verloren:0, tweede:1, winnaar:0}}
 ];
 
 dashboard('#dashboard',freqData);
